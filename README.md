@@ -1,5 +1,5 @@
-##Bank Customer Details
-###Dvorovenko Max
+## Bank Customer Details
+### Dvorovenko Max
 This project is a part of the assignment to rewrite the ShowCustomerDetails method using the classes Bank, Customer, and Account from previous labs. The objective is to ensure that the bank has at least two customers, and the information about them (including their first accounts) can be viewed by entering the customer's number. You can either use the classes from the provided repository or import a jar file containing all necessary classes as a library.
 
 Usage
@@ -16,14 +16,14 @@ Run the project:
 
 Follow the on-screen instructions to view customer details.
 
-###Implementation Details
+### Implementation Details
 
 The Bank class manages the customers and their accounts.
 Each Customer has a first name, last name, and accounts.
 The Account class represents the bank accounts, which can be savings or checking.
 The ShowCustomerDetails method displays information about customers and their first accounts based on user input.
 
-###Screenshots
+### Screenshots
 ![1](https://github.com/ppc-ntu-khpi/tui-snowaaaaaaaaaa/assets/144525592/80d81743-0d3a-4757-9dad-dd5a6e680bf5)
 
 ![2](https://github.com/ppc-ntu-khpi/tui-snowaaaaaaaaaa/assets/144525592/ec07ce0d-fd5f-4700-94ed-76add3b46811)
@@ -36,9 +36,9 @@ The ShowCustomerDetails method displays information about customers and their fi
 
 ![6](https://github.com/ppc-ntu-khpi/tui-snowaaaaaaaaaa/assets/144525592/d4269cfd-f69d-4708-bb38-d67a4b28c5e6)
 
-###Result
+### Result
 ![result](https://github.com/ppc-ntu-khpi/tui-snowaaaaaaaaaa/assets/144525592/f4caa4e6-1aae-4738-a778-cfc69aed9eb2)
 
-###License
+### License
 
 This project is licensed under the MIT License - see the LICENSE file for details.
