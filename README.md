@@ -1,21 +1,44 @@
-# UI Lab 1
-![](terminal-icon.png)
-![](gui-icon.png)
+##Bank Customer Details
+###Dvorovenko Max
+This project is a part of the assignment to rewrite the ShowCustomerDetails method using the classes Bank, Customer, and Account from previous labs. The objective is to ensure that the bank has at least two customers, and the information about them (including their first accounts) can be viewed by entering the customer's number. You can either use the classes from the provided repository or import a jar file containing all necessary classes as a library.
 
-Це одна з робіт, які доповнюють основний цикл лабораторних робіт #1-8 (проект **Banking**, [Netbeans](https://netbeans.org/)) з ООП.  Основна мета цих додаткових вправ - познайомитись з різними видами інтерфейсів користувача та засобами їх створення. Згадувані 'базові' роботи розміщено в [окремому репозиторії](https://github.com/liketaurus/OOP-JAVA) (якщо будете робити завдання на "4" або "5" раджу переглянути [діаграму класів](https://github.com/liketaurus/OOP-JAVA/blob/master/MyBank.png), аби розуміти які методи є у класів).
+Usage
+Clone the repository:
+```git clone https://github.com/your_username/bank-customer-details.git```
 
-В ході першої роботи вам пропонується виконати **наступне завдання** - [Робота 1: TUI з Jexer](https://github.com/ppc-ntu-khpi/TUI-Lab1-Starter/blob/master/Lab%201%20-TUI/Lab%201.md)
-  
-**Додаткове завдання** (для тих хто зробив все і прагне більшого): [дивіться тут](https://github.com/ppc-ntu-khpi/TUI-Lab1-Starter/blob/master/Lab%201%20-TUI/Lab%201%20-%20add.md)
+Navigate to the project directory:
+```cd bank-customer-details```
 
-Всі необхідні бібліотеки містяться у теці [jars](https://github.com/ppc-ntu-khpi/TUI-Lab1-Starter/tree/master/jars). В тому числі - всі необхідні відкомпільовані класи з робіт 1-8 - файл [MyBank.jar](https://github.com/ppc-ntu-khpi/TUI-Lab1-Starter/blob/master/jars/MyBank.jar). Файл даних лежить у теці [data](https://github.com/ppc-ntu-khpi/TUI-Lab1-Starter/tree/master/data).
+Compile the project:
+```mvn compile```
+Run the project:
+```mvn exec:java```
 
----
-**УВАГА! Не забуваємо здавати завдання через Google Classroom та вказувати посилання на створений для вас репозиторій!**
+Follow the on-screen instructions to view customer details.
 
-Також пам'ятайте, що ніхто не заважає вам редагувати файл README у вашому репозиторії😉.
-А ще - дуже раджу спробувати нову фічу - інтеграцію з IDE REPL.it (хоч з таким завданням вона може й не впоратись, однак, цікаво ж!).
+###Implementation Details
 
-![](https://img.shields.io/badge/Made%20with-JAVA-red.svg)
-![](https://img.shields.io/badge/Made%20with-%20Netbeans-brightgreen.svg)
-![](https://img.shields.io/badge/Made%20at-PPC%20NTU%20%22KhPI%22-blue.svg) 
+The Bank class manages the customers and their accounts.
+Each Customer has a first name, last name, and accounts.
+The Account class represents the bank accounts, which can be savings or checking.
+The ShowCustomerDetails method displays information about customers and their first accounts based on user input.
+
+###Screenshots
+![1](https://github.com/ppc-ntu-khpi/tui-snowaaaaaaaaaa/assets/144525592/80d81743-0d3a-4757-9dad-dd5a6e680bf5)
+
+![2](https://github.com/ppc-ntu-khpi/tui-snowaaaaaaaaaa/assets/144525592/ec07ce0d-fd5f-4700-94ed-76add3b46811)
+
+![3](https://github.com/ppc-ntu-khpi/tui-snowaaaaaaaaaa/assets/144525592/8eaa5484-8149-4200-9a0b-ab08c629f73f)
+
+![4](https://github.com/ppc-ntu-khpi/tui-snowaaaaaaaaaa/assets/144525592/465299e3-3061-4d50-bdf3-72ebf8958f4a)
+
+![5](https://github.com/ppc-ntu-khpi/tui-snowaaaaaaaaaa/assets/144525592/75548386-80aa-4395-9751-9dac731c7d8c)
+
+![6](https://github.com/ppc-ntu-khpi/tui-snowaaaaaaaaaa/assets/144525592/d4269cfd-f69d-4708-bb38-d67a4b28c5e6)
+
+###Result
+![result](https://github.com/ppc-ntu-khpi/tui-snowaaaaaaaaaa/assets/144525592/f4caa4e6-1aae-4738-a778-cfc69aed9eb2)
+
+###License
+
+This project is licensed under the MIT License - see the LICENSE file for details.
